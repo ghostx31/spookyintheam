@@ -19,8 +19,8 @@ You can get my dotfiles and configs from my GitHub at [dotfiles](https://github.
 **Languages** \
 __Go:__: Recently started this language and I've been liking it a lot. Go is on its way to become a language I code in daily. Quite fun. \
 __Python:__ Have been using it for sometime now and have written various middlewares for websites in Django. \
-__C++:__ Started out in programming with this language so its the closest to my heart. Sad I haven't had the oppurnity to make some big projects in it. 
+__C++:__ Started out in programming with this language so its the closest to my heart. Sad I haven't had the oppurtunity to make some big projects in it. 
 
 
 **Tools** \
-__Docker:__ Recently started using Docker to containerise some projects. Stay tuned 😆
+__Docker:__ Recently started using Docker to containerize some projects. Stay tuned! 😆
