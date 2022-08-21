@@ -1,5 +1,5 @@
 <div align="center">
-    <h2> My Setup and tools I use </h2>
+    <h2> My Setup and the tools I use </h2>
     <img src="images/desktop.png" width="500">
 </div>
 
@@ -17,7 +17,7 @@ You can get my dotfiles and configs from my GitHub at [dotfiles](https://github.
 </div>
 
 **Languages** \
-__Go:__: Recently started this language and I've been liking it a lot. Go is on its way to become a language I code in daily. Quite fun. \
+__Go:__ Recently started this language and I've been liking it a lot. Go is on its way to become a language I code in daily. Quite fun. \
 __Python:__ Have been using it for sometime now and have written various middlewares for websites in Django. \
 __C++:__ Started out in programming with this language so its the closest to my heart. Sad I haven't had the oppurtunity to make some big projects in it. 
 

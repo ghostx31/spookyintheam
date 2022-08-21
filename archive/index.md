@@ -1,12 +1,12 @@
-<h1 align=center">Hello! I am Himanshu 👋️</h1>
 <div align="center">
+<h1 align=center">Hello! I am Himanshu 👋️</h1>
 <h3>Cloud Solutions Architect ☁️</h3>
 </div>
 
 This is something of a personal archive, where I post what I do, what I have done and what I am learning. This just might document my journey as a developer, an architect and a cloud enthusiast. This was long due but the main idea for the whole archive was stolen shamelessly from [Hamothy](https://github.com/sgoudham). <img src="images/keksmile.webp" width="20px">
 
 ## About me 🤓️
-- A 4th year student pursuing CSE from India. I am AWS certified Solutions Architect. You can check out my [AWS badge](https://www.credly.com/badges/e1d7f299-977a-4b6f-a94c-992ce725f5c1/public_url)!
+- A 4th year student pursuing CSE from India. I am an AWS certified Solutions Architect. You can check out my [AWS badge](https://www.credly.com/badges/e1d7f299-977a-4b6f-a94c-992ce725f5c1/public_url)!
 - Linux geek and a big open source fanatic! Obligatory to say I use Arch btw, right? 😸
 - I mainly program in Python and recently started coding in Go and I might just switch completely to Go. 
 

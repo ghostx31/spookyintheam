@@ -1,6 +1,6 @@
 <div align="center">
     <h2> My projects 👨‍💼</h2>
-    <img src="images/go.png" width="500px">
+    <img src="images/go.png" width="500px" alt="image credit: dukk!">
 </div>
 
 I am currently working as a developer and contributor at [Catppuccin](https://github.com/catppuccin). 
