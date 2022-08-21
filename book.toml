@@ -1,0 +1,25 @@
+[book]
+authors = ["Himanshu"]
+language = "en"
+multilingual = false
+src = "archive"
+title = "Spooky's personal archive!"
+
+[preprocessor]
+
+[preprocessor.admonish]
+command = "mdbook-admonish"
+assets_version = "2.0.0" # do not edit: managed by `mdbook-admonish install`
+
+[output]
+
+[output.html]
+default-theme="navy"
+preferred-dark-theme="navy"
+no-section-label=true
+additional-css = ["./assets/mdbook-admonish.css"]
+
+[output.html.fold]
+enable = true 
+level = 4
+
