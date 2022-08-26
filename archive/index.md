@@ -10,10 +10,10 @@ This is something of a personal archive, where I post what I do, what I have don
 - Linux geek and a big open source fanatic! Obligatory to say I use Arch btw, right? 😸
 - I mainly program in Python and recently started coding in Go and I might just switch completely to Go. 
 
-## What I do when not...coding?
-Now that you ask, I mostly spend my time cooped up in my room (like every other engineering student) reading books. I read a lot of books, and by a lot I mean _a lot_. I'll be making a list of books I read this year and keep it updated whenever I get the time to do that. 
+## What do I do when not...coding?
+Now that you ask, I mostly spend my time cooped up in my room (like every other engineering student, lol) reading books. I read a lot of books, and by a lot I mean _a lot_. I'll be making a list of books I read this year and keep it updated whenever I get the time to do that. 
 
-I also love to listen to music and might just clock in a lot hours on Spotify this year. A big Arctic Monkeys and Phoebe Bridgers fan. My music taste ranges from absolute trash to God-like. There's no in-between here. 😆
+Also a chad rock music enjoyer and a big Arctic Monkeys and Phoebe Bridgers fan. My music taste ranges from absolute trash to God-like. There's no in-between here. 😆
 
 - - - - 
 
