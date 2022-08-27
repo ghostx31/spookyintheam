@@ -15,7 +15,7 @@ I am currently working on [CLI for Catppuccin](https://github.com/catppuccin/cli
 
 I have previously completed some projects, most of which were either personal projets or were created for university submissions. I mostly worked on writing the middleware and backends of these projects but also had some role in the frontend as well. 
 
-```admonish info 
+```admonish warning title="Warning!!!" 
 The quality of these projects either ranges from good to war crimes against programming. There is no in-between. 
 ```
 

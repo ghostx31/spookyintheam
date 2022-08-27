@@ -11,13 +11,16 @@ title = "Spooky's personal archive!"
 command = "mdbook-admonish"
 assets_version = "2.0.0" # do not edit: managed by `mdbook-admonish install`
 
+[preprocessor.catppuccin]
+assets_version = "0.1.0" # DO NOT EDIT: Managed by `mdbook-catppuccin install`
+
 [output]
 
 [output.html]
-default-theme="navy"
-preferred-dark-theme="navy"
+default-theme="mocha"
+preferred-dark-theme="mocha"
 no-section-label=true
-additional-css = ["./assets/mdbook-admonish.css"]
+additional-css = ["./assets/mdbook-admonish.css", "./theme/catppuccin.css", "./theme/catppuccin-highlight.css", "././mdbook-admonish.css", "././assets/mdbook-admonish.css"]
 
 [output.html.fold]
 enable = true 

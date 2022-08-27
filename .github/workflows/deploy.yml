@@ -32,17 +32,18 @@ jobs:
           key: ${{ runner.os }}-cargo-build-target-${{ hashFiles('**/Cargo.lock') }}
 
       # Install mdbook and requirements
-      - name: Install mdbook and admonish plugin 
+      - name: Install mdbook, admonish plugin and catppuccin-mdbook
         uses: actions-rs/cargo@v1
         with:
           command: install
-          args: mdbook mdbook-admonish 
+          args: mdbook mdbook-admonish mdbook-catppuccin
 
       - name: Checkout 
         uses: actions/checkout@v2
 
       - name: Deploy GitHub Pages
         run: |
+          mdbook-catppucc install
           mdbook build
           git worktree add gh-pages
           git config user.name "Deploy from CI"
