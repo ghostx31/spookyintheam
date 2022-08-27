@@ -43,7 +43,7 @@ jobs:
 
       - name: Deploy GitHub Pages
         run: |
-          mdbook-catppucc install
+          mdbook-catppuccin install
           mdbook-admonish install --css-dir ./assets/
           mdbook build
           git worktree add gh-pages
