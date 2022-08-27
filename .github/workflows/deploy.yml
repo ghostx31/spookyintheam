@@ -44,6 +44,7 @@ jobs:
       - name: Deploy GitHub Pages
         run: |
           mdbook-catppucc install
+          mdbook-admonish install --css-dir ./assets/
           mdbook build
           git worktree add gh-pages
           git config user.name "Deploy from CI"
