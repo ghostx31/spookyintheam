@@ -2,45 +2,35 @@ name: GH Pages Deploy
 
 on: 
   push: 
-    branches: [main]
+    branches: 
+      - main 
+
+env: 
+  MDBOOK-VERSION: v0.4.21
+  MDBOOK-ADMONISH-VERSION: v1.7.0
+  MDBOOK-CATPPUCCIN-VERSION: v0.1.1
 
 jobs: 
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Install cargo and admonish 
-        uses: actions-rs/toolchain@v1 
-        with:
-          toolchain: stable
-          profile: minimal 
-      
-       # Cache installation assets
-      - name: Cache cargo registry
-        uses: actions/cache@v1
-        with:
-          path: ~/.cargo/registry
-          key: ${{ runner.os }}-cargo-registry-${{ hashFiles('**/Cargo.lock') }}
-      - name: Cache cargo index
-        uses: actions/cache@v1
-        with:
-          path: ~/.cargo/git
-          key: ${{ runner.os }}-cargo-index-${{ hashFiles('**/Cargo.lock') }}
-      - name: Cache cargo build
-        uses: actions/cache@v1
-        with:
-          path: target
-          key: ${{ runner.os }}-cargo-build-target-${{ hashFiles('**/Cargo.lock') }}
-
-      # Install mdbook and requirements
-      - name: Install mdbook, admonish plugin and catppuccin-mdbook
-        uses: actions-rs/cargo@v1
-        with:
-          command: install
-          args: mdbook mdbook-admonish mdbook-catppuccin
-
       - name: Checkout 
         uses: actions/checkout@v2
-
+      - name: Install mdbook 
+        run: |
+          mkdir mdbook 
+          curl -sSL  https://github.com/rust-lang/mdBook/releases/download/${{ env.MDBOOK-VERSION }}/mdbook-${{ env.MDBOOK-VERSION }}-x86_64-unknown-linux-gnu.tar.gz | tar -xz --directory=./mdbook
+          echo `pwd`/mdbook >> $GITHUB_PATH
+      - name: Install mdbook-admonish 
+        run: |
+          mkdir mdbook-admonish
+          curl -sSL https://github.com/tommilligan/mdbook-admonish/releases/download/${{ env.MDBOOK-ADMONISH-VERSION }}/mdbook-admonish-${{ env.MDBOOK-ADMONISH-VERSION }}-x86_64-unknown-linux-gnu.tar.gz | tar -xz --directory=./mdbook-admonish
+          echo `pwd`/mdbook-admonish >> $GITHUB_PATH
+      - name: Install mdbook-catppuccin 
+        run: |
+          mkdir mdbook-catppuccin 
+          curl -sSL https://github.com/catppuccin/mdBook/releases/download/${{ env.MDBOOK-CATPPUCCIN-VERSION }}/mdbook-catppuccin-x86_64-unknown-linux-gnu.tar.gz | tar -xz --directory=./mdbook-catppuccin
+          echo 'pwd'/mdbook-catppuccin >> $GITHUB_PATH
       - name: Deploy GitHub Pages
         run: |
           mdbook-catppuccin install
@@ -54,6 +44,7 @@ jobs:
           git update-ref -d refs/heads/gh-pages
           rm -rf *
           mv ../book/* .
+          echo "spookyintheam.codes" >> CNAME
           git add .
           git commit -m "Deploy $GITHUB_SHA to gh-pages"
           git push --force --set-upstream origin gh-pages
