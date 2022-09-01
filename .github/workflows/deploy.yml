@@ -30,7 +30,7 @@ jobs:
         run: |
           mkdir mdbook-catppuccin 
           curl -sSL https://github.com/catppuccin/mdBook/releases/download/${{ env.MDBOOK-CATPPUCCIN-VERSION }}/mdbook-catppuccin-x86_64-unknown-linux-gnu.tar.gz | tar -xz --directory=./mdbook-catppuccin
-          echo 'pwd'/mdbook-catppuccin >> $GITHUB_PATH
+          echo `pwd`/mdbook-catppuccin >> $GITHUB_PATH
       - name: Deploy GitHub Pages
         run: |
           mdbook-catppuccin install
