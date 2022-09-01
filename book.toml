@@ -20,7 +20,9 @@ assets_version = "0.1.0" # DO NOT EDIT: Managed by `mdbook-catppuccin install`
 default-theme="mocha"
 preferred-dark-theme="mocha"
 no-section-label=true
-additional-css = ["./assets/mdbook-admonish.css", "./theme/catppuccin.css", "./theme/catppuccin-highlight.css", "././mdbook-admonish.css", "././assets/mdbook-admonish.css"]
+git-repository-url = "https://github.com/ghostx31/spookyintheam"
+git-repository-icon = "fa-github"
+additional-css = ["././assets/mdbook-admonish.css", "./theme/catppuccin.css", "./theme/catppuccin-highlight.css"]
 
 [output.html.fold]
 enable = true 
