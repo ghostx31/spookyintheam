@@ -17,5 +17,6 @@ I figure I can use this to keep track of my reading too, its a personal archive 
 - [ ] Elektra - Jennifer Saint 
 - [ ] Red, White & Royal Blue - Casey McQuiston 
 - [ ] The Bread the Devil Knead - Lisa Allen-Agostini
-- [ ] Sense and Sensibility - Jane Austen 
+- [ ] Sense and Sensibility - Jane Austen
+- [ ] My Dark Vanessa - Kate Elizabeth Russell (TW!)
 
