@@ -22,6 +22,5 @@ Also a chad rock music enjoyer and a big Arctic Monkeys and Phoebe Bridgers fan.
 </div>
 <div style="text-align: center; padding-top: 8px">
     <a style-="padding-left: 4px; padding-right: 4px" href="https://github.com/ghostx31"><img src="images/github.png">
-    <a style-="padding-left: 4px; padding-right: 4px" href="https://https://www.linkedin.com/in/himanshu-gaikwad/"><img src="images/linkedin.png">
     <a style-="padding-left: 4px; padding-right: 4px" href="https://discord.com/users/680274737561206789"><img src="images/discord.png">
 </div>
