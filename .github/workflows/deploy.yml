@@ -1,9 +1,10 @@
 name: GH Pages Deploy 
 
 on: 
-  push: 
-    branches: 
-      - main 
+  push:
+    tags:
+      - "*" # Only run on tags
+    
 
 env: 
   MDBOOK-VERSION: v0.4.21
@@ -44,6 +45,9 @@ jobs:
           git update-ref -d refs/heads/gh-pages
           rm -rf *
           mv ../book/* .
+          sed -i 's/1e1e2e/020202' theme/catppuccin.css
+          sed -i 's/181825/010101' theme/catppuccin.css
+          sed -i 's/11111b/000000' theme/catppuccin.css
           echo "spookyintheam.codes" >> CNAME
           git add .
           git commit -m "Deploy $GITHUB_SHA to gh-pages"
