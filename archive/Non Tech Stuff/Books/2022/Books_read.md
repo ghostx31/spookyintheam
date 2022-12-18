@@ -1,7 +1,6 @@
 <div align="center">
     <h2>Books I've read this year 📚</h2>
     <img src="../../../images/book.jpg" width="500px" height="600px">
-    <!-- <h3>How many I've read this year: 52</h3> -->
 </div>
 
 __This is the list of books I've read this year. I'll try to keep it updated as often as possible 😙__
@@ -50,3 +49,13 @@ __This is the list of books I've read this year. I'll try to keep it updated as 
 - The Love Hypothesis - Ali Hazelwood 
 - The Girl With the Dragon Tattoo series - Stieg Larsson 
 - Boy Parts - Eliza Clark 
+- Beyond Good and Evil - Frierich Nietzsche
+- Carrie Soto Is Back - Taylor Jenkins Reid
+- My Dark Vanessa - Kate Elizabeth Russell
+- Open Water - Caleb Azumah Nelson 
+- Know My Name - Chanel Miler 
+- The Shining - Stephen King 
+- The Brother Karamzov - Fyodor Dostoevsky
+- Lolita - Vladimir Nabakov 
+- East of Eden - John Steinbeck 
+- The Martian - Andy Weir

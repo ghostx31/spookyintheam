@@ -15,7 +15,6 @@
 - [Books]()
   - [2022]()
     - [Books I've read this year 📚](Non%20Tech%20Stuff/Books/2022/Books_read.md)
-    - [The inexhaustible TBR](Non%20Tech%20Stuff/Books/2022/Books_unread.md)
 - [Music]()
   - [My playlists 🎶](Non%20Tech%20Stuff/Music/Spotify.md)
   
