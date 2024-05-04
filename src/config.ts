@@ -2,10 +2,10 @@ import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
   website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
-  author: "Sat Naing",
-  desc: "",
+  author: "Spooky",
+  desc: "Spooky's blog, a small insight into my mind",
   title: "Spooky",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "og-media.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
