@@ -5,7 +5,7 @@ title: "About"
 
 I am spooky.
 
-I hope to turn this small part of internet into a glimpse of my mind 😃
+I hope to turn this small part of the internet into a glimpse of my mind 😃
 
 You can mostly find me fiddling around with cloud native technologies or writing some weird app in Go.
 
